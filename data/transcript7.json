@@ -1,0 +1,124 @@
+{
+    "id": "transc-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-20T16:32:00Z",
+    "updated_at": "2024-06-20T16:32:00Z",
+    "conversation": {
+        "id": "conv-436",
+        "_href": "/conversations/conv-436"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi, is this Zhi? Hey, this is Arjun calling from MongoDB. Do you have a minute?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:10",
+            "text": "Yes, this is Zhi. I'm the IT Director at Acme Corp. Uh, what can I help you with?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:10",
+            "timestamp_end": "00:00:18",
+            "text": "Thanks for picking up. The reason I\u2019m calling is I noticed Acme Corp. is moving towards microservices, and you\u2019re currently on DynamoDB, right?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:18",
+            "timestamp_end": "00:00:22",
+            "text": "Yeah, that\u2019s correct. We\u2019re modernizing a lot right now."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:22",
+            "timestamp_end": "00:00:30",
+            "text": "Awesome. I\u2019ll keep it quick. Have you looked at MongoDB Atlas at all? We see a lot of healthcare orgs choosing Atlas for flexibility with data and compliance."
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:30",
+            "timestamp_end": "00:00:35",
+            "text": "To be honest, migrating data models sounds risky. Our workloads are pretty complex, and compliance is always a big thing."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:35",
+            "timestamp_end": "00:00:43",
+            "text": "I totally get that. Actually, Atlas supports HIPAA and other key healthcare standards out of the box. And, our professional services team has handled DynamoDB-to-Mongo migrations many times."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:43",
+            "timestamp_end": "00:00:46",
+            "text": "But what about vendor lock-in? That\u2019s, uh, another pain point right now."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:46",
+            "timestamp_end": "00:00:53",
+            "text": "Great question. Actually, Atlas runs on AWS, Azure, and Google Cloud, so you can deploy anywhere and avoid being locked into one cloud provider."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:53",
+            "timestamp_end": "00:00:58",
+            "text": "Okay, but honestly, price is a real concern. DynamoDB is predictable on cost. How does Atlas compare?"
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:58",
+            "timestamp_end": "00:01:07",
+            "text": "Yeah, cost matters. Atlas pricing is usage-based too and often more efficient at scale, since you can optimize workload placement and tiering. I can show you a total cost comparison if that\u2019s helpful."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:07",
+            "timestamp_end": "00:01:12",
+            "text": "Maybe. Can you, um, email me more info? Something on compliance, migration, and pricing?"
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:12",
+            "timestamp_end": "00:01:18",
+            "text": "Absolutely. I\u2019ll send over a follow-up with case studies in healthcare, details on HIPAA compliance, and migration resources. Would that work?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:18",
+            "timestamp_end": "00:01:21",
+            "text": "That\u2019d be perfect. Thanks, Arjun."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:21",
+            "timestamp_end": "00:01:24",
+            "text": "You got it. I\u2019ll get that out to you today. Have a great rest of your week, Zhi."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:24",
+            "timestamp_end": "00:01:26",
+            "text": "You too. Bye."
+        }
+    ]
+}

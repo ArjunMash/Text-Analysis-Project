@@ -1,0 +1,124 @@
+{
+    "id": "transcript-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-12T13:42:00Z",
+    "updated_at": "2024-06-12T13:42:00Z",
+    "conversation": {
+        "id": "conv-20240612-001",
+        "_href": "https://example.com/conversations/conv-20240612-001"
+    },
+    "transcription_sentences": [
+        {
+            "index": 0,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:05",
+            "text": "Hi Zhi, this is Arjun with MongoDB\u2014do you have a minute to talk about your current data stack at Acme Corp.?"
+        },
+        {
+            "index": 1,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:06",
+            "timestamp_end": "00:00:09",
+            "text": "Uh, hey Arjun. I have a couple, but I\u2019ll need to keep it quick\u2014what\u2019s this about?"
+        },
+        {
+            "index": 2,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:10",
+            "timestamp_end": "00:00:17",
+            "text": "Totally understand. I saw you folks are on Firebase and that Acme\u2019s looking to optimize costs. I\u2019m reaching out because MongoDB Atlas can help reduce spend and\u2026still give you flexible, secure data management\u2014especially for healthcare."
+        },
+        {
+            "index": 3,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:18",
+            "timestamp_end": "00:00:22",
+            "text": "Right, we are. But to be upfront\u2014migrating off Firebase sounds, uh, pretty disruptive. Isn't that a huge lift?"
+        },
+        {
+            "index": 4,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:23",
+            "timestamp_end": "00:00:29",
+            "text": "Great point, Zhi. Migration is always a concern. We actually have tooling and white-glove partners to automate a lot of the heavy lifting. Usually it\u2019s faster than engineering expects\u2014sometimes just a few weeks for similar clients."
+        },
+        {
+            "index": 5,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:30",
+            "timestamp_end": "00:00:34",
+            "text": "Okay, but, uh, we\u2019re also careful about vendor lock-in. If we switch, are we just stuck with Atlas forever?"
+        },
+        {
+            "index": 6,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:35",
+            "timestamp_end": "00:00:40",
+            "text": "Not at all. MongoDB is open-source at its core. Your data can be exported anytime in standard formats, and Atlas supports multi-cloud, so you\u2019re not tied to a single provider."
+        },
+        {
+            "index": 7,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:41",
+            "timestamp_end": "00:00:47",
+            "text": "Hmm, makes sense, but\u2026 our data model is pretty complex and tightly coupled to the way Firebase works. How much effort goes into redesigning for MongoDB?"
+        },
+        {
+            "index": 8,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:48",
+            "timestamp_end": "00:00:54",
+            "text": "Yeah, totally fair. MongoDB\u2019s schema flexibility helps here. Often, you can map your documents over pretty directly. We also have solution architects who can review your model and suggest quick wins."
+        },
+        {
+            "index": 9,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:01:00",
+            "text": "Alright, but we\u2019re in healthcare. Where\u2019s Atlas with HIPAA and security?"
+        },
+        {
+            "index": 10,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:01",
+            "timestamp_end": "00:01:07",
+            "text": "Atlas is fully HIPAA-eligible, with end-to-end encryption, fine-grained access, and audit logging. We\u2019ve got a lot of healthcare customers running PHI securely."
+        },
+        {
+            "index": 11,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:08",
+            "timestamp_end": "00:01:12",
+            "text": "Okay. What would next steps look like\u2014assuming I want a deeper look?"
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:13",
+            "timestamp_end": "00:01:19",
+            "text": "Awesome. We can set up a 30-minute call with our solutions team, walk through your use case, and map out cost savings and migration scope. What\u2019s your calendar like next week?"
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:20",
+            "timestamp_end": "00:01:25",
+            "text": "Let\u2019s do that. I\u2019m free Wednesday morning\u2014send me an invite?"
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:26",
+            "timestamp_end": "00:01:29",
+            "text": "Perfect. I\u2019ll send a calendar hold for Wednesday. Thanks, Zhi\u2014looking forward to it."
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:30",
+            "timestamp_end": "00:01:32",
+            "text": "Thanks, Arjun. Talk soon."
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "id": "transcript-001-acme-mongodb-20240618",
+    "language_code": "en-US",
+    "created_at": "2024-06-18T09:25:00Z",
+    "updated_at": "2024-06-18T09:25:00Z",
+    "conversation": {
+        "id": "conversation-001-acme",
+        "_href": "/conversations/001-acme"
+    },
+    "transcription_sentences": [
+        {
+            "index": 0,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hey Zhi, this is Arjun over at MongoDB. Is now a good time to chat for a couple of minutes?"
+        },
+        {
+            "index": 1,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:10",
+            "text": "Uh, yeah, I\u2019ve got a few minutes. What\u2019s up?"
+        },
+        {
+            "index": 2,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:16",
+            "text": "Great, thank you! I noticed Acme Corp.\u2019s been in the news about your cost optimization initiative. Are you involved in that at all?"
+        },
+        {
+            "index": 3,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:21",
+            "text": "Yeah, that's pretty much on my desk these days. We\u2019re looking at everything, honestly."
+        },
+        {
+            "index": 4,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:22",
+            "timestamp_end": "00:00:29",
+            "text": "Makes sense. I\u2019m reaching out because a lot of gaming teams are switching from DynamoDB to Atlas to reduce TCO and simplify ops\u2014especially around scaling and data model flexibility. Is that something you\u2019re wrestling with?"
+        },
+        {
+            "index": 5,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:30",
+            "timestamp_end": "00:00:34",
+            "text": "Yeah, DynamoDB\u2019s okay, but it gets expensive at scale. Still, migration sounds\u2026 risky. Like, downtime risk, dev time, all that."
+        },
+        {
+            "index": 6,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:35",
+            "timestamp_end": "00:00:43",
+            "text": "Totally hear you, and, honestly, that\u2019s top of mind for everyone. We actually have a bunch of migration tooling and a specialized team to help gaming companies do it with minimal downtime. Would it help if I sent specifics on how that works?"
+        },
+        {
+            "index": 7,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:44",
+            "timestamp_end": "00:00:46",
+            "text": "Sure, yeah. Could you share examples, maybe?"
+        },
+        {
+            "index": 8,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:54",
+            "text": "Absolutely. I can send some case studies from studios we've helped, and a breakdown of how we managed live game migrations. Are you mostly worried about player data, or is it backend systems too?"
+        },
+        {
+            "index": 9,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:00:59",
+            "text": "Both, honestly. But, uh, security is probably my first question. How\u2019s Atlas with compliance? We\u2019re under a lot of scrutiny there."
+        },
+        {
+            "index": 10,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:00",
+            "timestamp_end": "00:01:10",
+            "text": "Yeah\u2014Atlas is SOC 2, ISO, PCI compliant out of the box and you get built-in encryption. We also do automated audits and granular access control, which helps a lot for game data privacy. Is there a specific compliance framework you\u2019re worried about?"
+        },
+        {
+            "index": 11,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:11",
+            "timestamp_end": "00:01:13",
+            "text": "Uh, mostly GDPR for our EU titles."
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:14",
+            "timestamp_end": "00:01:18",
+            "text": "Yup, Atlas supports data residency controls, so you can pin data in specific regions for GDPR compliance. Can definitely include more on that in my email."
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:19",
+            "timestamp_end": "00:01:24",
+            "text": "Okay, cool. I mean, send me what you\u2019ve got, I\u2019ll take a look and maybe loop in my lead dev."
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:25",
+            "timestamp_end": "00:01:29",
+            "text": "Perfect, I\u2019ll put together a short deck, some case studies, and the migration process details. Is there anything else I should include for your team?"
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:30",
+            "timestamp_end": "00:01:33",
+            "text": "Maybe some pricing guidelines? We\u2019re getting hammered on cost questions."
+        },
+        {
+            "index": 16,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:34",
+            "timestamp_end": "00:01:39",
+            "text": "Absolutely\u2014I\u2019ll share a pricing model comparison. What\u2019s the best email for you?"
+        },
+        {
+            "index": 17,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:40",
+            "timestamp_end": "00:01:43",
+            "text": "zhi@acmecorp.com works. Thanks for reaching out, Arjun."
+        },
+        {
+            "index": 18,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:44",
+            "timestamp_end": "00:01:46",
+            "text": "Thank you, Zhi. I\u2019ll follow up shortly\u2014let me know if you have any other questions."
+        },
+        {
+            "index": 19,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:47",
+            "timestamp_end": "00:01:48",
+            "text": "Will do. Bye."
+        },
+        {
+            "index": 20,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:49",
+            "timestamp_end": "00:01:50",
+            "text": "Take care!"
+        }
+    ]
+}

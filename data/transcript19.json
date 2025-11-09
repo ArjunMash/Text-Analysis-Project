@@ -1,0 +1,159 @@
+{
+    "id": "9b3f2e91-3cbb-4b7c-97f6-af0c53df2e30",
+    "language_code": "en-US",
+    "created_at": "2024-06-29T10:21:02Z",
+    "updated_at": "2024-06-29T10:23:45Z",
+    "conversation": {
+        "id": "conv-00139",
+        "_href": "/conversations/conv-00139"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi Zhi, this is Arjun from MongoDB. Do you have a minute to chat about your database strategy at Acme Corp.?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:11",
+            "text": "Hey Arjun, make it quick\u2014I've got back-to-back meetings this morning."
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:19",
+            "text": "Of course! I'll be brief. I noticed you just wrapped up a data compliance review. Curious\u2014are you comfortable with your current setup, or is there room for improvement?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:19",
+            "timestamp_end": "00:00:26",
+            "text": "Well, we use Snowflake for most of our analytics, but honestly, some compliance flags came up\u2014mostly around data residency."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:26",
+            "timestamp_end": "00:00:34",
+            "text": "That makes sense. Gaming companies like Acme are under the microscope these days. With MongoDB Atlas, you can control exactly where your data lives\u2014even down to the region."
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:34",
+            "timestamp_end": "00:00:39",
+            "text": "Sure, but switching databases isn\u2019t trivial. I mean, we\u2019ve invested a lot in Snowflake and our team\u2019s built around it."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:45",
+            "text": "Absolutely, and that\u2019s not something we ever want to disrupt. Out of curiosity\u2014are you using Snowflake mostly for analytics, or do you have transactional workloads too?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:45",
+            "timestamp_end": "00:00:50",
+            "text": "Mostly analytics, but we\u2019re starting to see more real-time requirements...like leaderboards, player inventory, that kind of thing."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:50",
+            "timestamp_end": "00:00:58",
+            "text": "That\u2019s where Atlas really shines. It\u2019s designed for high-velocity, transactional use cases, and you can still connect it to your analytics tools. Have you run into any latency issues?"
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:58",
+            "timestamp_end": "00:01:04",
+            "text": "A few, yeah. But my real concern is budget. Moving to another vendor sounds\u2014uh\u2014expensive. And what about lock-in?"
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:04",
+            "timestamp_end": "00:01:13",
+            "text": "Fair question. MongoDB Atlas is fully pay-as-you-go and multi-cloud, so you can avoid being locked into a single provider. And we have flexible contract terms\u2014no surprise fees."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:13",
+            "timestamp_end": "00:01:17",
+            "text": "Okay, but how much data modeling are we talking? Our devs don\u2019t have time to rewrite everything."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:17",
+            "timestamp_end": "00:01:23",
+            "text": "Honestly, that depends. Our team can help you map your schema and even automate parts of the migration. Have you explored JSON or NoSQL before?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:23",
+            "timestamp_end": "00:01:29",
+            "text": "Uh, not really. We\u2019re mostly SQL and tables. JSON is... well, unfamiliar territory for us."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:29",
+            "timestamp_end": "00:01:36",
+            "text": "That\u2019s totally normal. We\u2019ve got several gaming clients who\u2019ve made that jump\u2014often piloting a small workload first. Security-wise, Atlas is fully compliant with SOC 2, GDPR, ISO 27001, all that."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:36",
+            "timestamp_end": "00:01:41",
+            "text": "SOC 2\u2019s good\u2014that came up in our review. Just, uh, we can\u2019t afford downtime or any big surprises."
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:41",
+            "timestamp_end": "00:01:48",
+            "text": "Totally understand. We offer guided migrations and 24/7 support so there\u2019s always a safety net. What if we scheduled a 30-minute discovery session with our solutions architect?"
+        },
+        {
+            "index": 18,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:48",
+            "timestamp_end": "00:01:52",
+            "text": "Alright\u2014send something over. Next week, sometime after lunch?"
+        },
+        {
+            "index": 19,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:52",
+            "timestamp_end": "00:01:56",
+            "text": "Will do. I\u2019ll send a calendar invite for next Tuesday, 2pm. Sound good?"
+        },
+        {
+            "index": 20,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:56",
+            "timestamp_end": "00:02:00",
+            "text": "Yeah, put me down. Thanks, Arjun."
+        },
+        {
+            "index": 21,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:00",
+            "timestamp_end": "00:02:04",
+            "text": "Thanks, Zhi. Looking forward to it. Have a great day!"
+        }
+    ]
+}

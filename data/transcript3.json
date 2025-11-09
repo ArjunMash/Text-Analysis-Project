@@ -1,0 +1,138 @@
+{
+    "id": "transcript-20240627-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-27T14:02:10Z",
+    "updated_at": "2024-06-27T14:02:10Z",
+    "conversation": {
+        "id": "conv-20240627-acme-mongodb-coldcall",
+        "_href": "/conversations/conv-20240627-acme-mongodb-coldcall"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hi Zhi, this is Arjun calling from MongoDB. Is now an okay time to talk for a couple minutes?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:06",
+            "timestamp_end": "00:00:10",
+            "text": "Um, sure, I have a few minutes. What\u2019s this about?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:10",
+            "timestamp_end": "00:00:19",
+            "text": "Thanks, I\u2019ll be brief. I noticed Acme Corp. has been scaling a lot on DynamoDB, and I wanted to see if you\u2019re open to discussing how MongoDB Atlas could help with your current database challenges?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:19",
+            "timestamp_end": "00:00:25",
+            "text": "Yeah, we\u2019ve run into some... bumps as we\u2019ve scaled up. Our workloads have gotten a bit more unpredictable lately."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:25",
+            "timestamp_end": "00:00:31",
+            "text": "That\u2019s actually super common. When workloads shift, Dynamo\u2019s pricing and data modeling can get tricky. Would you mind sharing what\u2019s been toughest for your team?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:31",
+            "timestamp_end": "00:00:38",
+            "text": "Sure. Mainly, cost predictability, and, honestly, data modeling has become painful. Our data\u2019s getting more complex, and we\u2019re having to jump through hoops with Dynamo."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:38",
+            "timestamp_end": "00:00:48",
+            "text": "That makes sense. MongoDB Atlas gives you a flexible schema, so you can model and evolve your data without major overhauls. And costs are more predictable since you pay for your cluster\u2019s resources, not per operation."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:48",
+            "timestamp_end": "00:00:55",
+            "text": "But wouldn\u2019t migration be a big lift? We\u2019ve got a lot built on Dynamo, and honestly, the risk of downtime or lost data isn\u2019t something I can easily justify."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:01:04",
+            "text": "Absolutely, migration\u2019s always a concern. We actually have tooling\u2014like our Atlas Live Migration Service\u2014and partners who\u2019ve helped fintechs just like Acme move with near-zero downtime. We can help you map out a transition plan before you commit."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:04",
+            "timestamp_end": "00:01:10",
+            "text": "What about compliance? We\u2019re in fintech\u2014security and data residency are top priorities for us."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:10",
+            "timestamp_end": "00:01:19",
+            "text": "Totally understood. Atlas runs on AWS, Azure, or GCP and offers SOC 2, PCI DSS, GDPR, and regional controls. We support encryption at rest and in transit, plus audit logging out of the box."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:19",
+            "timestamp_end": "00:01:28",
+            "text": "Okay, that\u2019s good to know. I\u2019m still wary about vendor lock-in, though, if we go down this route. We don\u2019t want to be stuck, you know?"
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:28",
+            "timestamp_end": "00:01:36",
+            "text": "That\u2019s a fair concern. With Atlas, your data\u2019s always your own\u2014no proprietary binary formats. And MongoDB is open source, so you can run it anywhere if you need to."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:36",
+            "timestamp_end": "00:01:41",
+            "text": "Okay, so\u2014how would this get started? What\u2019s next if we want to explore more?"
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:41",
+            "timestamp_end": "00:01:49",
+            "text": "Great question. I\u2019d suggest a quick discovery call with one of our solution architects next week. We\u2019ll review your current workloads and map out what a pilot could look like\u2014no commitment needed."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:49",
+            "timestamp_end": "00:01:53",
+            "text": "All right, yeah, let\u2019s set something up. Can you send me some times by email?"
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:53",
+            "timestamp_end": "00:01:57",
+            "text": "Absolutely. I\u2019ll follow up in the next hour. Thanks for your time, Zhi\u2014you\u2019ve been really helpful."
+        },
+        {
+            "index": 18,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:57",
+            "timestamp_end": "00:02:01",
+            "text": "Thanks, Arjun. Look forward to your email."
+        }
+    ]
+}

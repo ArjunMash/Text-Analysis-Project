@@ -1,0 +1,145 @@
+{
+    "id": "transcript-00239",
+    "language_code": "en-US",
+    "created_at": "2024-06-30T14:23:00Z",
+    "updated_at": "2024-06-30T14:23:00Z",
+    "conversation": {
+        "id": "conv-51290",
+        "_href": "https://api.saleslogs.com/conversations/conv-51290"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi Zhi, this is Arjun from MongoDB. Did I catch you with a minute to chat?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:11",
+            "text": "Uh, hey Arjun. I have a few minutes, but I\u2019ll need to be brief. What\u2019s this about?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:17",
+            "text": "Of course, I\u2019ll keep it short. I saw Acme Corp. just rolled out some new AI features. Congrats on that\u2014big move."
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:19",
+            "text": "Thanks. It\u2019s been\u2026 a lot. What are you calling about?"
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:19",
+            "timestamp_end": "00:00:27",
+            "text": "I wanted to talk briefly about MongoDB Atlas\u2014our cloud database service\u2014because I think it could really support what you\u2019re building, especially as AI workloads scale."
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:27",
+            "timestamp_end": "00:00:31",
+            "text": "We\u2019re actually pretty invested in Snowflake right now. That\u2019s our main stack."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:31",
+            "timestamp_end": "00:00:39",
+            "text": "Yeah, totally get it. Snowflake\u2019s excellent for analytics. But we see fintechs using MongoDB Atlas alongside it\u2014for real-time, high-velocity data from transactional apps or AI models. Are you running into any gaps there?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:44",
+            "text": "Honestly, maybe. But migration is a big risk for us. We have compliance stuff to worry about, too."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:44",
+            "timestamp_end": "00:00:51",
+            "text": "I hear that a lot. Just to clarify\u2014most of our fintech clients actually keep Snowflake for analytics and bring in Atlas where they need flexible, secure data and super low latency. We don't push for a full switch."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:51",
+            "timestamp_end": "00:00:55",
+            "text": "Okay, but, I mean\u2026 data movement and integration between platforms is still tricky."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:01:02",
+            "text": "Absolutely. That\u2019s why we have connectors and real-time sync tools\u2014so data flows between Snowflake and Atlas smoothly. Our team typically supports that migration, and a lot of it\u2019s automated."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:02",
+            "timestamp_end": "00:01:07",
+            "text": "Can you send over some info on how you handle compliance? We\u2019re under some heavy FISMA and PCI pressure."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:07",
+            "timestamp_end": "00:01:15",
+            "text": "For sure. MongoDB Atlas is certified for SOC 2, PCI DSS, and more\u2014we can send you the full documentation. Our enterprise customers in finance lean on us specifically for that."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:15",
+            "timestamp_end": "00:01:18",
+            "text": "Alright. Honestly, budget\u2019s tight too, so I\u2019m not promising anything right now."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:18",
+            "timestamp_end": "00:01:24",
+            "text": "Totally fair\u2014I wouldn\u2019t expect a decision from one call. What if I send over a brief summary, pricing info, and some case studies? Then we can chat if it makes sense."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:24",
+            "timestamp_end": "00:01:28",
+            "text": "Yeah, that\u2019s fine. Email works best. I\u2019ll look it over when I get a chance."
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:28",
+            "timestamp_end": "00:01:32",
+            "text": "Perfect, thanks Zhi. I\u2019ll get that out to you in the next hour. Really appreciate your time."
+        },
+        {
+            "index": 18,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:32",
+            "timestamp_end": "00:01:35",
+            "text": "Alright Arjun, thanks. Have a good one."
+        },
+        {
+            "index": 19,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:35",
+            "timestamp_end": "00:01:38",
+            "text": "You too, bye!"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "id": "54321",
+    "language_code": "en-US",
+    "created_at": "2024-06-17T10:15:00Z",
+    "updated_at": "2024-06-17T10:15:00Z",
+    "conversation": {
+        "id": "conv-20240617-001",
+        "_href": "https://conversations.example.com/conv-20240617-001"
+    },
+    "transcription_sentences": [
+        {
+            "index": 0,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hi, is this Zhi? Hey, this is Arjun from MongoDB\u2014did I catch you at a bad time?"
+        },
+        {
+            "index": 1,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:06",
+            "timestamp_end": "00:00:10",
+            "text": "Uh, hi Arjun. I\u2019ve got a few minutes\u2014what\u2019s this about?"
+        },
+        {
+            "index": 2,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:10",
+            "timestamp_end": "00:00:17",
+            "text": "Awesome, thanks! I\u2019m reaching out because I saw Acme Corp. recently kicked off a migration project, and I wanted to see if Atlas could help accelerate things or add some flexibility to your data layer."
+        },
+        {
+            "index": 3,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:21",
+            "text": "We did, yeah. Uh, we\u2019re pretty deep into Snowflake right now, so I\u2019m not sure we\u2019re looking for new databases."
+        },
+        {
+            "index": 4,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:21",
+            "timestamp_end": "00:00:28",
+            "text": "Totally hear you. Snowflake\u2019s amazing for analytics! Where I think Atlas could help is real-time workloads\u2014especially if you\u2019re looking at operational data or multi-region high availability. Are those things on your radar yet?"
+        },
+        {
+            "index": 5,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:28",
+            "timestamp_end": "00:00:34",
+            "text": "We\u2019ve talked about multi-region, yeah, but honestly one concern is failover. Snowflake\u2019s, um, pretty robust there\u2014how does MongoDB Atlas compare?"
+        },
+        {
+            "index": 6,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:34",
+            "timestamp_end": "00:00:43",
+            "text": "Great question, Zhi. Atlas actually automates multi-region setup and failover, so in the event of, say, an outage, your data instantly fails over to another region\u2014there\u2019s no manual intervention. And everything\u2019s encrypted, end-to-end."
+        },
+        {
+            "index": 7,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:43",
+            "timestamp_end": "00:00:46",
+            "text": "Got it. How about HIPAA? We\u2019re in healthcare, so\u2026"
+        },
+        {
+            "index": 8,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:46",
+            "timestamp_end": "00:00:53",
+            "text": "Absolutely. Atlas is fully HIPAA-eligible. We can provide BAAs, audit logs, all that\u2014lots of our healthcare customers rely on us for clinical and patient data every day."
+        },
+        {
+            "index": 9,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:53",
+            "timestamp_end": "00:00:58",
+            "text": "Okay, interesting. But, Arjun, honestly\u2014the last migration took ages and cost a fortune. I can\u2019t, uh, justify rocking the boat again soon."
+        },
+        {
+            "index": 10,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:58",
+            "timestamp_end": "00:01:06",
+            "text": "Makes total sense. Migration is tough. One thing we do is partner closely during transitions\u2014dedicated engineers, proof-of-concept phases, even pilots to reduce risk. You don\u2019t have to go all-in right away."
+        },
+        {
+            "index": 11,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:06",
+            "timestamp_end": "00:01:10",
+            "text": "Maybe, but Acme\u2019s locked into a contract with Snowflake for another year. Vendor lock-in's\u2026 real."
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:10",
+            "timestamp_end": "00:01:17",
+            "text": "For sure. Lots of our customers start with just a single workload or region. Atlas is month-to-month, so you\u2019re never tied down\u2014and you can expand or contract as needs change."
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:17",
+            "timestamp_end": "00:01:23",
+            "text": "Hmm. Okay, that\u2019s\u2026 that\u2019s good to know. What\u2019s the pricing like, compared to, uh, what we\u2019re used to?"
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:23",
+            "timestamp_end": "00:01:32",
+            "text": "It\u2019s pay-as-you-go, and most teams find it\u2019s pretty competitive\u2014especially for active workloads. But, Zhi, I\u2019d love to send a follow-up that lays it all out side-by-side\u2014would that help?"
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:32",
+            "timestamp_end": "00:01:36",
+            "text": "Yeah, send me an email with some details. Maybe a case study if you have one?"
+        },
+        {
+            "index": 16,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:36",
+            "timestamp_end": "00:01:41",
+            "text": "Absolutely. What\u2019s the best address for you? And is there anything specific you want to see\u2014security stuff, pricing, use cases?"
+        },
+        {
+            "index": 17,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:41",
+            "timestamp_end": "00:01:45",
+            "text": "zhi.wu@acme.example. Security and healthcare references, mainly."
+        },
+        {
+            "index": 18,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:45",
+            "timestamp_end": "00:01:50",
+            "text": "Perfect, I\u2019ll pull those together and send them over by tomorrow. Thanks for your time, Zhi\u2014really appreciate it."
+        },
+        {
+            "index": 19,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:50",
+            "timestamp_end": "00:01:52",
+            "text": "Thanks Arjun. Take care."
+        },
+        {
+            "index": 20,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:52",
+            "timestamp_end": "00:01:54",
+            "text": "You too. Bye!"
+        }
+    ]
+}

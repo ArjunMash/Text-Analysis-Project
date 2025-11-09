@@ -1,0 +1,124 @@
+{
+    "id": "mongo-coldcall-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-22T09:57:00Z",
+    "updated_at": "2024-06-22T09:57:00Z",
+    "conversation": {
+        "id": "conv-12345",
+        "_href": "https://example.com/conversations/conv-12345"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi, is this Zhi? Hi, this is Arjun calling from MongoDB. Have I caught you at a good time?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:11",
+            "text": "Uh, yeah, hi, this is Zhi\u2014I've got about five minutes. What\u2019s up?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:17",
+            "text": "Great, thanks\u2014I\u2019ll be quick. I saw that Acme Corp just rolled out some AI features. Congrats on the launch! How\u2019s that transition going?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:23",
+            "text": "Oh, thanks. Yeah, it\u2019s, uh, definitely been a push. We\u2019re still ironing out a few things, but overall it\u2019s exciting."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:23",
+            "timestamp_end": "00:00:29",
+            "text": "Awesome. The reason for my call\u2014I noticed you\u2019re currently running MongoDB on-prem. A lot of fintechs are moving to Atlas for managed scalability, especially once AI workloads kick in. Have you considered cloud?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:29",
+            "timestamp_end": "00:00:37",
+            "text": "We\u2019ve thought about it, honestly. But\u2026 migration is scary. Uptime is huge for us. And, uh, compliance. Not sure we want to mess with what\u2019s working."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:37",
+            "timestamp_end": "00:00:45",
+            "text": "Yeah, totally hear you\u2014especially in fintech. Just curious, are your on-prem clusters handling the increased load since the AI rollout? Any pain points there?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:45",
+            "timestamp_end": "00:00:49",
+            "text": "Hmm, we\u2019re holding steady, but traffic is spikier now. Monitoring is, uh, more stressful."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:49",
+            "timestamp_end": "00:00:57",
+            "text": "That makes sense. Atlas automates scaling and has built-in monitoring, which can take those manual headaches off your plate. And with compliance\u2014we\u2019re PCI DSS and SOC2 certified."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:57",
+            "timestamp_end": "00:01:04",
+            "text": "That\u2019s good to know. But honestly, contracts and vendor lock-in worry me. And what if migration goes sideways? We can\u2019t afford downtime."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:04",
+            "timestamp_end": "00:01:12",
+            "text": "Absolutely fair. We have flexible contract options and our migration team has helped hundreds of fintechs\u2014many with zero downtime. Would a case study or technical doc help you understand what that looks like?"
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:12",
+            "timestamp_end": "00:01:17",
+            "text": "Yeah, I\u2019d love to see something concrete. Could you send that over, maybe with contract details too?"
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:17",
+            "timestamp_end": "00:01:24",
+            "text": "Definitely. I\u2019ll send a short email after this with a link to a fintech migration story and a breakdown of Atlas contract options. Best address for you is zhi@acmecorp.com?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:24",
+            "timestamp_end": "00:01:29",
+            "text": "Yep, that\u2019ll work. Thanks, Arjun. Please keep it brief, though\u2014I\u2019m swamped."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:29",
+            "timestamp_end": "00:01:34",
+            "text": "Of course, I\u2019ll keep it short and to the point. Really appreciate your time, Zhi. Have a good one!"
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:34",
+            "timestamp_end": "00:01:36",
+            "text": "Thanks. Take care."
+        }
+    ]
+}

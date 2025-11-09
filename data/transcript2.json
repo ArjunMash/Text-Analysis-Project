@@ -1,0 +1,152 @@
+{
+    "id": "transc-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-27T15:42:17Z",
+    "updated_at": "2024-06-27T15:42:17Z",
+    "conversation": {
+        "id": "conv-983",
+        "_href": "/conversations/conv-983"
+    },
+    "transcription_sentences": [
+        {
+            "index": 0,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi, is this Zhi? This is Arjun calling from MongoDB. Do you have a quick minute to chat?"
+        },
+        {
+            "index": 1,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:10",
+            "text": "Uh, yeah, I can spare a few. What\u2019s this about?"
+        },
+        {
+            "index": 2,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:18",
+            "text": "Thanks, I\u2019ll be brief. I saw Acme Corp. recently wrapped up a data compliance review. I was curious if you\u2019re exploring any changes to your database infrastructure off the back of that?"
+        },
+        {
+            "index": 3,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:18",
+            "timestamp_end": "00:00:24",
+            "text": "Um, we\u2019re always looking at ways to be more compliant, but to be honest, we\u2019re pretty invested in our MySQL setup. It\u2019d take a lot to move away."
+        },
+        {
+            "index": 4,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:25",
+            "timestamp_end": "00:00:31",
+            "text": "Totally get that, Zhi. Just to check\u2014are scaling and compliance your main concerns right now? Or is there something else top of mind?"
+        },
+        {
+            "index": 5,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:31",
+            "timestamp_end": "00:00:37",
+            "text": "Yeah, I\u2019d say those are the two biggest. Compliance is big for us, and also we\u2019ve been hitting some load limits with MySQL during peak ad auctions."
+        },
+        {
+            "index": 6,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:38",
+            "timestamp_end": "00:00:47",
+            "text": "That makes sense. Atlas was actually built for scenarios like high-speed bidding and bursty workloads. Out of curiosity, how are you handling sharding or scaling MySQL right now?"
+        },
+        {
+            "index": 7,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:51",
+            "text": "We\u2019ve got some homegrown sharding in place. It works, but it\u2019s fragile and requires a lot of hands-on babysitting."
+        },
+        {
+            "index": 8,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:51",
+            "timestamp_end": "00:01:02",
+            "text": "Yeah, I hear that a lot. With Atlas, sharding is handled automatically, no manual work\u2014plus, you can scale up or down without downtime. On the compliance side, have you run into any headaches around audit trails or data residency yet?"
+        },
+        {
+            "index": 9,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:02",
+            "timestamp_end": "00:01:08",
+            "text": "We\u2019ve had to build some custom stuff, honestly. Audit trails, GDPR compliance, that kind of thing. But\u2026 isn\u2019t MongoDB more expensive, though?"
+        },
+        {
+            "index": 10,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:09",
+            "timestamp_end": "00:01:16",
+            "text": "Fair question. The cost really depends on usage, but many adtech teams find they save on engineering hours and downtime. Can I ask\u2014how much of your team\u2019s time goes into maintaining MySQL each week?"
+        },
+        {
+            "index": 11,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:16",
+            "timestamp_end": "00:01:21",
+            "text": "Honestly? Too much. But, uh, we\u2019re also worried about being locked in\u2014if we pick Atlas, is it hard to migrate away later if we need to?"
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:21",
+            "timestamp_end": "00:01:31",
+            "text": "That\u2019s a great point. Atlas uses open standards and BSON, plus you can export your data at any time. It\u2019s not a black box, so you\u2019re not stuck. We also have migration pilots that minimize risk."
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:31",
+            "timestamp_end": "00:01:36",
+            "text": "Alright, that\u2019s good to know\u2026 But what about real-time performance? Like, can Atlas really handle billions of ad requests without choking?"
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:36",
+            "timestamp_end": "00:01:45",
+            "text": "Absolutely. In fact, several top adtech platforms run on Atlas for exactly that reason. I can share some reference architectures and case studies if that\u2019s helpful."
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:45",
+            "timestamp_end": "00:01:53",
+            "text": "Sure, send those over. But do you have anything focused on compliance for EU traffic? That\u2019s a board-level priority for us right now."
+        },
+        {
+            "index": 16,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:53",
+            "timestamp_end": "00:02:03",
+            "text": "Definitely, we offer regional data controls for GDPR, plus automated auditing and encryption at rest and in transit. I can loop in one of our compliance specialists if you\u2019d like a deeper dive."
+        },
+        {
+            "index": 17,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:03",
+            "timestamp_end": "00:02:08",
+            "text": "Okay, that sounds worth a follow-up. Let\u2019s set up a call next week with my team."
+        },
+        {
+            "index": 18,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:08",
+            "timestamp_end": "00:02:13",
+            "text": "Perfect, I\u2019ll send over some options. And I\u2019ll include those case studies. Appreciate your time, Zhi!"
+        },
+        {
+            "index": 19,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:13",
+            "timestamp_end": "00:02:16",
+            "text": "No problem. Looking forward to your email, Arjun."
+        }
+    ]
+}

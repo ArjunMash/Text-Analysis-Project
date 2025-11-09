@@ -1,0 +1,124 @@
+{
+    "id": "9f7bc21a-1a3b-4bd7-bf63-cc3c6c73f4c8",
+    "language_code": "en-US",
+    "created_at": "2024-06-15T10:19:02Z",
+    "updated_at": "2024-06-15T10:19:02Z",
+    "conversation": {
+        "id": "conv-c1a4a5f3",
+        "_href": "/conversations/conv-c1a4a5f3"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:08",
+            "text": "Hi Zhi\u2014this is Arjun calling from MongoDB. Did I catch you at a good time, or is now a bad moment?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:09",
+            "timestamp_end": "00:00:12",
+            "text": "Uh, yeah, I have a couple minutes. What's this about?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:13",
+            "timestamp_end": "00:00:23",
+            "text": "Great, thanks. I noticed Acme Corp. recently started a migration initiative and saw you're mostly on Firebase today. I wanted to see if you've looked at MongoDB Atlas as part of that process?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:24",
+            "timestamp_end": "00:00:28",
+            "text": "Yeah, we're aware of it. Firebase's been working well for us, though; we're just consolidating right now."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:29",
+            "timestamp_end": "00:00:38",
+            "text": "Sure, makes sense. Just out of curiosity, is there anything in your current stack\u2014maybe with scalability or data security\u2014that you'd want to improve as you consolidate?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:45",
+            "text": "Honestly, security and compliance are non-negotiable, and Firebase hasn\u2019t given us any issues on that front. Performance is solid under our peak loads, too."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:46",
+            "timestamp_end": "00:00:59",
+            "text": "Absolutely, I get it. Atlas is fully compliant\u2014SOC2, HIPAA, PCI\u2014the works. And we have retailers handling thousands of transactions per second during peak events. Any interest in a pilot to see how it compares?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:00",
+            "timestamp_end": "00:01:07",
+            "text": "Not really. To be completely transparent, our team doesn't want to risk another migration right now. We're just getting stable with what we have."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:08",
+            "timestamp_end": "00:01:19",
+            "text": "Understood. If cost is a concern, I should mention Atlas can actually help optimize spend as your needs grow. Has that come up in conversations internally?"
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:20",
+            "timestamp_end": "00:01:30",
+            "text": "Honestly, price is always a factor, but it's not just about the dollars. It's the migration risk and potential for vendor lock-in. We want to avoid more complexity, if anything."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:31",
+            "timestamp_end": "00:01:38",
+            "text": "Absolutely\u2014makes sense. Out of curiosity, is MongoDB on the roadmap at all for the future, or is it off the table for now?"
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:39",
+            "timestamp_end": "00:01:46",
+            "text": "Honestly, not in the next year, no. We\u2019re pretty set with Firebase and don\u2019t want to reevaluate again anytime soon."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:47",
+            "timestamp_end": "00:01:54",
+            "text": "Got it. I appreciate your candor, Zhi. Mind if I check in next year, just in case priorities shift?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:55",
+            "timestamp_end": "00:01:59",
+            "text": "Yeah, that's fine. But honestly, I wouldn't expect any change."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:00",
+            "timestamp_end": "00:02:06",
+            "text": "Totally fair. Thanks for your time today, Zhi. If anything comes up, you know where to find me."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:07",
+            "timestamp_end": "00:02:10",
+            "text": "Will do. Take care, Arjun."
+        }
+    ]
+}

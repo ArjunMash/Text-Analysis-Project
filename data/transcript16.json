@@ -1,0 +1,117 @@
+{
+    "id": "transcript-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-25T13:00:00Z",
+    "updated_at": "2024-06-25T13:00:00Z",
+    "conversation": {
+        "id": "conv-78910",
+        "_href": "https://example.com/conversations/conv-78910"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:04",
+            "text": "Hi Zhi, this is Arjun calling from MongoDB. Is this still a good time?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:04",
+            "timestamp_end": "00:00:07",
+            "text": "Uh, hey Arjun. I have a few minutes\u2014what\u2019s up?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:14",
+            "text": "Thanks, I\u2019ll keep it brief. I saw Acme Corp. is running MongoDB on-prem and, with your recent cost optimization push, thought it might help to chat about Atlas, our managed cloud offering."
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:14",
+            "timestamp_end": "00:00:17",
+            "text": "Yeah, we\u2019re, uh, always looking at cost. Managed comes up, but moving feels risky."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:23",
+            "text": "Completely fair. Honestly, migration is the first thing most teams mention. But Atlas has automated tools and white-glove support for moving from on-prem, so you\u2019re not alone at any step."
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:23",
+            "timestamp_end": "00:00:27",
+            "text": "Mm, okay. Our CTO\u2019s biggest concern is data security and compliance. We handle a lot of sensitive info."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:27",
+            "timestamp_end": "00:00:33",
+            "text": "Absolutely\u2014and that\u2019s central for Atlas, too. We\u2019re certified for SOC 2, ISO, GDPR, all the big ones. Plus, you can get VPC peering, disk-level encryption, and very granular access controls."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:33",
+            "timestamp_end": "00:00:37",
+            "text": "Isn\u2019t cloud\u2026 more expensive, though? I mean, we already own our hardware."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:37",
+            "timestamp_end": "00:00:43",
+            "text": "Good question. The sticker price can look higher at first, but when you factor in patching, scaling, disaster recovery, and, honestly, engineers\u2019 time, most SaaS teams see savings over 18\u201324 months."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:43",
+            "timestamp_end": "00:00:47",
+            "text": "Hmm. And we wouldn\u2019t get stuck with one vendor, would we? Vendor lock-in worries me."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:52",
+            "text": "Sure, totally get it. Atlas supports AWS, GCP, and Azure, so you can move your clusters between clouds or even back on-prem if you ever need to."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:52",
+            "timestamp_end": "00:00:55",
+            "text": "Alright. I\u2019d need to see some numbers and maybe a migration plan example."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:00:59",
+            "text": "Absolutely. Can I send over a short email with a TCO calculator, reference migrations, and compliance docs? Maybe you can share specific requirements too?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:59",
+            "timestamp_end": "00:01:03",
+            "text": "Yeah, send that over. I\u2019ll forward it to our infra lead as well. Thanks, Arjun."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:03",
+            "timestamp_end": "00:01:06",
+            "text": "Of course! I\u2019ll get that to you by end of day. Appreciate your time, Zhi."
+        }
+    ]
+}

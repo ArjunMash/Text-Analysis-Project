@@ -1,0 +1,124 @@
+{
+    "id": "transcript-00123",
+    "language_code": "en-US",
+    "created_at": "2024-06-22T15:30:00Z",
+    "updated_at": "2024-06-22T15:30:00Z",
+    "conversation": {
+        "id": "conv-04567",
+        "_href": "https://conversations.example.com/conv-04567"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hi, is this Zhi? This is Arjun calling from MongoDB, how are you today?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:06",
+            "timestamp_end": "00:00:08",
+            "text": "Yeah, speaking. I\u2019m doing alright\u2014thanks. How can I help?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:08",
+            "timestamp_end": "00:00:14",
+            "text": "Awesome, thanks for picking up! I\u2019ll keep it brief\u2014I noticed Acme Corp's been modernizing your microservices, and I wanted to see if you\u2019ve considered MongoDB Atlas for your data layer?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:14",
+            "timestamp_end": "00:00:16",
+            "text": "Uh, we\u2019re pretty deep into DynamoDB at this point, so... probably not."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:16",
+            "timestamp_end": "00:00:22",
+            "text": "Totally get it. DynamoDB\u2019s a solid choice. A lot of teams I talk to, though, hit limits with flexibility or multi-region scaling\u2014has that come up for you at all?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:22",
+            "timestamp_end": "00:00:26",
+            "text": "Um, not really, honestly. We\u2019re pretty happy with how things scale, and AWS covers our compliance. Multi-region is actually working fine for our use cases."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:26",
+            "timestamp_end": "00:00:32",
+            "text": "That\u2019s great to hear. Out of curiosity\u2014how\u2019s your experience been with vendor lock-in or migrating workloads between clouds? Is that a concern at all for Acme down the line?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:32",
+            "timestamp_end": "00:00:36",
+            "text": "We\u2019re pretty much all-in on AWS, to be honest. The switching costs would be huge and, uh, we\u2019ve got a long-term contract. Migration risk is just not something leadership wants to entertain."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:36",
+            "timestamp_end": "00:00:42",
+            "text": "Makes total sense, Zhi. Fair to say you wouldn\u2019t be open to exploring other options, even if it meant more flexibility on contract terms or support for multi-cloud in the future?"
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:42",
+            "timestamp_end": "00:00:47",
+            "text": "Not really, no. We just renewed our AWS agreement\u2014frankly, our leadership\u2019s pretty strict about keeping everything consolidated. Plus, our teams are already trained up on Dynamo."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:51",
+            "text": "Got it, yeah. And I imagine pricing is probably another factor\u2014it can look expensive to move, for sure?"
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:51",
+            "timestamp_end": "00:00:56",
+            "text": "Yeah, exactly. The cost to re-architect, retrain, and migrate... it\u2019s just not justifiable right now. We\u2019d need a serious reason to jump ship."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:56",
+            "timestamp_end": "00:01:02",
+            "text": "Totally appreciate the candor, Zhi. If anything ever changes, or you want to benchmark Atlas for future projects, what\u2019s the best way to check in\u2014email, maybe?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:02",
+            "timestamp_end": "00:01:07",
+            "text": "You can send info to my email, sure. But honestly, it\u2019s not likely we\u2019ll revisit this for at least a couple years."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:07",
+            "timestamp_end": "00:01:11",
+            "text": "I appreciate you letting me know. I\u2019ll send along my details, and if anything comes up, just reach out. Thanks for your time, Zhi!"
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:11",
+            "timestamp_end": "00:01:13",
+            "text": "Sounds good. Take care, Arjun."
+        }
+    ]
+}

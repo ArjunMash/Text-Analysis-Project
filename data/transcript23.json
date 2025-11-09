@@ -1,0 +1,124 @@
+{
+    "id": "call-20240610-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-10T14:15:02Z",
+    "updated_at": "2024-06-10T14:15:02Z",
+    "conversation": {
+        "id": "conv-20240610-001",
+        "_href": "https://api.salescalls.acme/conversations/conv-20240610-001"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi, is this Zhi? Hey, this is Arjun calling from MongoDB. Did I catch you at a bad time?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:08",
+            "timestamp_end": "00:00:11",
+            "text": "Um, hi Arjun. No, I have a few minutes. What\u2019s this regarding?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:12",
+            "timestamp_end": "00:00:21",
+            "text": "Thanks so much. I\u2019m reaching out because I saw Acme Corp. just rolled out some new AI features. I was curious\u2014how is your data stack handling the change, especially given you\u2019re on Snowflake?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:22",
+            "timestamp_end": "00:00:28",
+            "text": "Yeah, we\u2019ve been\u2026 busy, to say the least. It\u2019s early, but so far Snowflake\u2019s holding up. Why do you ask?"
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:29",
+            "timestamp_end": "00:00:38",
+            "text": "Just curious\u2014many healthcare orgs are seeing spikes in volume with AI rollouts. MongoDB Atlas is built to handle unpredictable loads and offers real-time access. Have you felt any, uh, slowdowns or pain points yet?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:44",
+            "text": "Not really, but I mean, it\u2019s still early days. My, uh, main worry\u2019s less about performance\u2014more about security. You know, HIPAA and all that."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:45",
+            "timestamp_end": "00:00:56",
+            "text": "Absolutely, and totally fair. Atlas is actually both HIPAA and HITRUST certified, so it checks all the compliance boxes. Plus, it\u2019s got built-in encryption\u2014at rest, in transit\u2014the whole deal."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:57",
+            "timestamp_end": "00:01:04",
+            "text": "Hmm. Okay, but what about vendor lock-in? We just moved to Snowflake last year, migration was\u2026 not fun."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:05",
+            "timestamp_end": "00:01:17",
+            "text": "Yeah, totally get that. Atlas is multi-cloud, so you\u2019re never tied to just one provider. And\u2014uh, just to clarify\u2014it\u2019s not about replacing Snowflake, but extending your current stack for real-time, high-volume workloads. Many folks run both."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:18",
+            "timestamp_end": "00:01:25",
+            "text": "Interesting. But, our team\u2019s swamped. I have to ask\u2014how heavy is the migration? I can\u2019t put more on their plate right now."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:26",
+            "timestamp_end": "00:01:38",
+            "text": "No, I get it\u2014honestly, the migration path is pretty flexible. We\u2019ve got, um, dedicated support and tooling for phased rollouts. Think pilot project, not big bang. Maybe we could map out what that looks like for your team?"
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:39",
+            "timestamp_end": "00:01:43",
+            "text": "Yeah\u2026 maybe. What about the cost, though? We\u2019re watching budgets closely."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:44",
+            "timestamp_end": "00:01:55",
+            "text": "Good question. We typically see TCO drop, since Atlas automates most maintenance. But, happy to run actual numbers. Would it make sense to set up a quick call next week? Maybe rope in your ops lead?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:56",
+            "timestamp_end": "00:02:01",
+            "text": "Yeah, I think that\u2019d be useful. Can you send me some times for early next week?"
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:02",
+            "timestamp_end": "00:02:09",
+            "text": "Absolutely, I\u2019ll send something over today. Thanks so much, Zhi. Looking forward to chatting more."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:10",
+            "timestamp_end": "00:02:12",
+            "text": "Thanks, Arjun. Talk soon!"
+        }
+    ]
+}

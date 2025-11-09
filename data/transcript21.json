@@ -1,0 +1,117 @@
+{
+    "id": "transcript-00123",
+    "language_code": "en-US",
+    "created_at": "2024-06-15T12:05:13Z",
+    "updated_at": "2024-06-15T12:05:13Z",
+    "conversation": {
+        "id": "conv-78934",
+        "_href": "https://example.com/conversations/conv-78934"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:08",
+            "text": "Hi Zhi, this is Arjun from MongoDB\u2014do you have a quick minute to chat about your recent migration plans at Acme Corp.?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:08",
+            "timestamp_end": "00:00:12",
+            "text": "Hey Arjun, I\u2019ve got a few minutes. What\u2019s up?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:12",
+            "timestamp_end": "00:00:21",
+            "text": "Great, thank you! So, I saw Acme Corp. is moving infrastructure\u2014are you considering modernizing your database layer as well, or sticking to your current on-prem MongoDB setup?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:21",
+            "timestamp_end": "00:00:27",
+            "text": "Yeah, we\u2019re evaluating options. Honestly, moving our player data has risk. Downtime kills games, so we\u2019re being cautious."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:27",
+            "timestamp_end": "00:00:35",
+            "text": "Totally get that. That\u2019s why I\u2019m reaching out\u2014MongoDB Atlas was built to minimize migration risk, and we have tools to ensure low downtime and phased cutovers. Have you looked into managed Atlas yet?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:35",
+            "timestamp_end": "00:00:39",
+            "text": "We\u2019ve heard of it, but honestly, control and security are huge concerns for us."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:49",
+            "text": "Absolutely. Atlas actually offers more security than most on-prem setups. We\u2019re talking automated patching, dedicated clusters, SOC 2, ISO 27001, and, uh, full encryption at rest and in transit. Can you share what specific compliance you need to hit?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:49",
+            "timestamp_end": "00:00:54",
+            "text": "We\u2019ve got to meet GDPR, plus, you know, some regional latency and failover requirements."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:54",
+            "timestamp_end": "00:01:02",
+            "text": "Atlas can help there, too. You can deploy clusters across 90+ regions and set up automatic failover\u2014so if one region goes down, your game stays online. Is your current on-prem setup multi-region?"
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:02",
+            "timestamp_end": "00:01:08",
+            "text": "Not really, it\u2019s\u2014well, it\u2019s pretty manual. But, to be honest, I worry about vendor lock-in and, uh, cost spikes."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:08",
+            "timestamp_end": "00:01:17",
+            "text": "Fair points. Actually, with Atlas, pricing is transparent, and you only pay for what you use. Plus, you can export your data at any time\u2014no lock-in. Most teams actually save on ops cost."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:17",
+            "timestamp_end": "00:01:23",
+            "text": "I mean, it sounds good, but we\u2019d want to see a realistic migration plan for our scale. Otherwise, it\u2019s a hard sell to leadership."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:23",
+            "timestamp_end": "00:01:33",
+            "text": "For sure. Why don\u2019t we schedule a quick call with our solution architect? We can walk you through a tailored migration roadmap, show live demos, and answer anything leadership throws at you."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:33",
+            "timestamp_end": "00:01:38",
+            "text": "Alright, can you send me some times? I\u2019ll loop in our lead engineer too."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:38",
+            "timestamp_end": "00:01:44",
+            "text": "Absolutely, Zhi. I\u2019ll follow up right after this call with a few slots. Appreciate your time\u2014talk soon!"
+        }
+    ]
+}

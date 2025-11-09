@@ -1,0 +1,145 @@
+{
+    "id": "call_20240628_001",
+    "language_code": "en-US",
+    "created_at": "2024-06-28T15:30:00Z",
+    "updated_at": "2024-06-28T15:32:00Z",
+    "conversation": {
+        "id": "conv_20240628_001",
+        "_href": "https://crm.example.com/conversations/conv_20240628_001"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:08",
+            "text": "Hi, this is Arjun calling from MongoDB. Is this Zhi, the Director of IT at Acme Corp.?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:08",
+            "timestamp_end": "00:00:10",
+            "text": "Yeah, this is Zhi. How can I help you?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:10",
+            "timestamp_end": "00:00:17",
+            "text": "Thanks, Zhi. I know you're busy\u2014I'll be brief. I saw Acme Corp. recently kicked off a major migration initiative. Can you share what prompted that shift?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:23",
+            "text": "Yeah, sure. We\u2019re trying to modernize, basically. Our current stack is a bit rigid. Snowflake's great for analytics, but transactional workloads? Not so much."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:23",
+            "timestamp_end": "00:00:31",
+            "text": "That makes sense. A lot of retail companies are running into that wall. Is flexibility for real-time applications one of your goals with this migration?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:31",
+            "timestamp_end": "00:00:36",
+            "text": "Yeah, we want to personalize customer experiences, maybe offer real-time inventory. That stuff."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:36",
+            "timestamp_end": "00:00:44",
+            "text": "Exactly where MongoDB Atlas shines. It\u2019s built for those transactional, fast-moving use cases. Have you considered using something like a document database alongside Snowflake?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:44",
+            "timestamp_end": "00:00:54",
+            "text": "I\u2019ve heard of MongoDB, but... Is it really that different? Also, honestly\u2014pricing is a big concern. We\u2019re already investing a lot into this migration."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:54",
+            "timestamp_end": "00:01:02",
+            "text": "Totally fair. Atlas offers a pay-as-you-go model, so you only pay for what you use. Actually, for retail workloads, customers often see lower TCO compared to traditional SQL setups because scaling up and down is seamless."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:02",
+            "timestamp_end": "00:01:10",
+            "text": "Okay, but the migration itself is risky. We can\u2019t afford downtime, and my team\u2019s used to SQL. I worry about ramp-up time and, um, vendor lock-in."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:10",
+            "timestamp_end": "00:01:18",
+            "text": "Yeah, absolutely\u2014migration risk is top of mind for everyone. Atlas actually has built-in migration tooling and we see a lot of customers running hybrid for a while, with SQL and MongoDB side by side."
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:18",
+            "timestamp_end": "00:01:27",
+            "text": "And on vendor lock-in\u2014MongoDB is multi-cloud. You can run workloads on AWS, GCP, or Azure. You're not stuck in one ecosystem, which gives you options."
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:27",
+            "timestamp_end": "00:01:31",
+            "text": "That\u2019s good to know. Security and compliance are also always on our minds, especially handling payment data."
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:31",
+            "timestamp_end": "00:01:38",
+            "text": "Of course. Atlas is fully compliant with SOC 2, GDPR, PCI DSS\u2014all the standards you\u2019d expect. Plus, encryption at rest and in motion is default."
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:38",
+            "timestamp_end": "00:01:43",
+            "text": "Hmm, okay. I\u2019d just need to see a clearer business case and migration roadmap for Acme before I bring this to my team."
+        },
+        {
+            "index": 16,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:43",
+            "timestamp_end": "00:01:52",
+            "text": "That\u2019s exactly what I\u2019d like to help with. How about we set up a call with your team and one of our solution architects? We can walk through your current workloads and map out a pilot, no commitment."
+        },
+        {
+            "index": 17,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:52",
+            "timestamp_end": "00:01:58",
+            "text": "Uh, yeah, that sounds reasonable. Can you send me some available times for next week? I\u2019ll loop in my app dev lead."
+        },
+        {
+            "index": 18,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:58",
+            "timestamp_end": "00:02:03",
+            "text": "Absolutely, Zhi. I\u2019ll send over some slots this afternoon. Thanks for your time today\u2014and I\u2019m looking forward to diving deeper."
+        },
+        {
+            "index": 19,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:03",
+            "timestamp_end": "00:02:06",
+            "text": "Thanks, Arjun. Talk soon."
+        }
+    ]
+}

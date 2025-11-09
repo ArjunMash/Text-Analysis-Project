@@ -1,0 +1,152 @@
+{
+    "id": "transcript-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-21T14:02:00Z",
+    "updated_at": "2024-06-21T14:02:00Z",
+    "conversation": {
+        "id": "conversation-991",
+        "_href": "/conversations/conversation-991"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hi, is this Zhi from Acme Corp.? This is Arjun, calling from MongoDB."
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:06",
+            "timestamp_end": "00:00:09",
+            "text": "Yes, this is Zhi. What\u2019s this about?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:09",
+            "timestamp_end": "00:00:15",
+            "text": "I\u2019ll keep it quick\u2014I saw Acme Corp. just wrapped up a data compliance review. I wanted to ask how you\u2019re feeling about your current stack, especially with PostgreSQL."
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:15",
+            "timestamp_end": "00:00:19",
+            "text": "Uh, it\u2019s solid. We\u2019re used to it. Why?"
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:19",
+            "timestamp_end": "00:00:26",
+            "text": "Totally fair. A lot of gaming studios I work with were there too. I\u2019m reaching out because MongoDB Atlas is helping teams simplify compliance and scale, especially as player data gets more complex."
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:26",
+            "timestamp_end": "00:00:31",
+            "text": "Honestly, we just invested a ton in our PG setup. Not sure we want the hassle of change. Data modeling alone is a lift."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:31",
+            "timestamp_end": "00:00:37",
+            "text": "I hear you. Most of our gaming clients started small\u2014usually migrating one use case at a time, like player profiles or inventory. Atlas is flexible, so you don\u2019t have to go all-in on day one."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:37",
+            "timestamp_end": "00:00:40",
+            "text": "That\u2019s\u2026 interesting. But what about cost? Atlas looks pricey."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:40",
+            "timestamp_end": "00:00:45",
+            "text": "Yeah, pricing comes up a lot. But when customers run a TCO comparison, they often see savings as they reduce manual ops, avoid downtime, and scale elastically. Have you looked into that?"
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:45",
+            "timestamp_end": "00:00:49",
+            "text": "Not really. We\u2019ve just heard horror stories about cloud bills spiraling."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:49",
+            "timestamp_end": "00:00:55",
+            "text": "Totally fair. Atlas has built-in usage controls, so you don\u2019t get surprise bills. Plus, with dedicated cloud regions and managed backups, compliance is a lot less stressful."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:01:00",
+            "text": "Does Atlas cover GDPR by default? We have users in Europe and the US."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:00",
+            "timestamp_end": "00:01:07",
+            "text": "It does. We\u2019re GDPR, SOC2, and ISO certified. You pick which region your data lives in, and there are built-in tools for auditing and access control."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:07",
+            "timestamp_end": "00:01:11",
+            "text": "Okay. But, uh, how do we avoid vendor lock-in if we move our game logic over?"
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:11",
+            "timestamp_end": "00:01:17",
+            "text": "Great question. Atlas is built on open source MongoDB, so you can self-host later if you choose. We also offer tooling to help migrate data back if need be."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:17",
+            "timestamp_end": "00:01:22",
+            "text": "Alright\u2026 So, if we wanted to test this out, what\u2019s the first step?"
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:22",
+            "timestamp_end": "00:01:28",
+            "text": "Easiest way is a 30-minute discovery call. We can map your current architecture, see where Atlas fits, and show you migration tools in action. Want to grab a slot this week?"
+        },
+        {
+            "index": 18,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:28",
+            "timestamp_end": "00:01:33",
+            "text": "Yeah, I could do Thursday morning. Send me an invite and maybe some case studies?"
+        },
+        {
+            "index": 19,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:33",
+            "timestamp_end": "00:01:37",
+            "text": "Perfect. I\u2019ll send the details and a couple of gaming stories you\u2019ll like. Thanks for your time, Zhi!"
+        },
+        {
+            "index": 20,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:37",
+            "timestamp_end": "00:01:39",
+            "text": "Thanks, Arjun. Talk soon."
+        }
+    ]
+}

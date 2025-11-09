@@ -1,0 +1,138 @@
+{
+    "id": "transcription-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-29T10:30:02Z",
+    "updated_at": "2024-06-29T10:33:01Z",
+    "conversation": {
+        "id": "conv-12345",
+        "_href": "/conversations/conv-12345"
+    },
+    "transcription_sentences": [
+        {
+            "index": 0,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hi, is this Zhi? This is Arjun calling from MongoDB. Did I catch you at a decent time?"
+        },
+        {
+            "index": 1,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:06",
+            "timestamp_end": "00:00:11",
+            "text": "Hey Arjun, yeah, I\u2019ve got a couple of minutes before my next meeting. What\u2019s up?"
+        },
+        {
+            "index": 2,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:17",
+            "text": "Great, I\u2019ll keep it brief. I noticed Acme Corp\u2019s gaming platform is running on MongoDB on-prem, and I heard about some recent scaling challenges you\u2019ve been facing. Is that something you\u2019re still running into?"
+        },
+        {
+            "index": 3,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:21",
+            "text": "Yeah, scaling\u2019s been rough. We had a spike last weekend that nearly took us down."
+        },
+        {
+            "index": 4,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:21",
+            "timestamp_end": "00:00:26",
+            "text": "That sounds stressful. Sorry to hear it. Have you explored moving to MongoDB Atlas in the cloud? It can autoscale with your player base."
+        },
+        {
+            "index": 5,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:26",
+            "timestamp_end": "00:00:32",
+            "text": "We\u2019ve looked a little, but honestly, the migration seems risky. We can\u2019t afford any downtime, and our compliance team is pretty nervous about cloud security."
+        },
+        {
+            "index": 6,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:32",
+            "timestamp_end": "00:00:38",
+            "text": "Yeah, those are fair concerns. Atlas does offer zero-downtime migration tools and is certified for most gaming industry compliance standards\u2014SOC2, ISO, that kind of thing. Would you be open to a security deep dive?"
+        },
+        {
+            "index": 7,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:38",
+            "timestamp_end": "00:00:44",
+            "text": "I mean, maybe later, but\u2014and don\u2019t take this the wrong way\u2014I just don\u2019t trust having core data outside our environment. It\u2019s not just compliance, it\u2019s\u2026 just, we\u2019ve been burned before."
+        },
+        {
+            "index": 8,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:44",
+            "timestamp_end": "00:00:50",
+            "text": "Totally, totally get that. Out of curiosity, are you seeing any pain points with monitoring, backups, or performance tuning on-prem?"
+        },
+        {
+            "index": 9,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:50",
+            "timestamp_end": "00:00:57",
+            "text": "Honestly, yeah, but we have a lot of home-grown scripts and processes. It\u2019s not beautiful, but it works, and at least we know where everything is."
+        },
+        {
+            "index": 10,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:57",
+            "timestamp_end": "00:01:04",
+            "text": "That makes sense. Would it help if we did a risk assessment to compare cloud and on-prem for your use case? No pressure, just some data points."
+        },
+        {
+            "index": 11,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:04",
+            "timestamp_end": "00:01:10",
+            "text": "Honestly, Arjun, we\u2019re just not looking to switch right now. Even if the numbers look good, there\u2019s too much at stake for us with a migration."
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:10",
+            "timestamp_end": "00:01:13",
+            "text": "Understood. If it\u2019s not the right time, I don\u2019t want to push."
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:13",
+            "timestamp_end": "00:01:15",
+            "text": "Yeah, appreciate that. Maybe down the road, just not now."
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:15",
+            "timestamp_end": "00:01:19",
+            "text": "No worries, Zhi. Mind if I check in in a few months to see if anything\u2019s changed?"
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:19",
+            "timestamp_end": "00:01:23",
+            "text": "Sure, that\u2019s fine. Thanks for understanding, Arjun."
+        },
+        {
+            "index": 16,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:23",
+            "timestamp_end": "00:01:26",
+            "text": "Of course. Good luck with the next launch!"
+        },
+        {
+            "index": 17,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:26",
+            "timestamp_end": "00:01:28",
+            "text": "Thanks. Take care."
+        }
+    ]
+}

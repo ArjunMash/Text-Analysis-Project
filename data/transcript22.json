@@ -1,0 +1,110 @@
+{
+    "id": "conv-20240612-01",
+    "language_code": "en-US",
+    "created_at": "2024-06-12T09:00:00Z",
+    "updated_at": "2024-06-12T09:00:00Z",
+    "conversation": {
+        "id": "acme-atlas-pitch-001",
+        "_href": "/conversations/acme-atlas-pitch-001"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi, is this Zhi? This is Arjun from MongoDB, hope I\u2019m not catching you at a bad time."
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:08",
+            "timestamp_end": "00:00:12",
+            "text": "Yeah, speaking. I have a few minutes\u2014what\u2019s up?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:13",
+            "timestamp_end": "00:00:20",
+            "text": "Great. I saw Acme Corp. recently rolled out some new AI features and you\u2019re running on-prem MongoDB. I wanted to see if you\u2019ve looked at Atlas for your next phase."
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:21",
+            "timestamp_end": "00:00:28",
+            "text": "We\u2019re aware of Atlas, but honestly, we\u2019re hesitant to move off-prem given, you know, the compliance and latency issues with cloud."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:29",
+            "timestamp_end": "00:00:38",
+            "text": "Totally get it. Security and compliance come up a lot, especially in gaming. Atlas has SOC2, ISO, and regional controls. Would it help if we did a deep-dive with your compliance team?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:46",
+            "text": "I mean, maybe, but part of the issue is our own internal policies. Our users are super privacy-focused\u2014some data can\u2019t leave our servers, period."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:54",
+            "text": "Understood. There are hybrid options, but sounds like strict on-prem is a must. Is data modeling for new AI stuff another concern?"
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:55",
+            "timestamp_end": "00:01:00",
+            "text": "Yeah, honestly, lifting and shifting that workload just isn\u2019t, uh, realistic for us right now. Too much rework and risk."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:01",
+            "timestamp_end": "00:01:09",
+            "text": "That makes sense. It\u2019s just\u2014Atlas can, you know, handle scaling for unpredictable loads. I get compliance is non-negotiable, but are you totally closed to cloud even for secondary workloads?"
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:10",
+            "timestamp_end": "00:01:18",
+            "text": "Honestly, Arjun, I just don\u2019t see us moving anything critical or AI-related off-prem in the near future. It\u2019d take a huge policy change internally."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:19",
+            "timestamp_end": "00:01:26",
+            "text": "Got it. I appreciate the candor, Zhi. If things shift later, can I check in again in a few months?"
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:27",
+            "timestamp_end": "00:01:32",
+            "text": "Sure, but honestly, don\u2019t expect movement. We\u2019re committed to on-prem for now."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:33",
+            "timestamp_end": "00:01:36",
+            "text": "Understood. Thanks for your time, Zhi. Have a good one."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:37",
+            "timestamp_end": "00:01:39",
+            "text": "You too, bye."
+        }
+    ]
+}

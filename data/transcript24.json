@@ -1,0 +1,131 @@
+{
+    "id": "transcript-001-acme-mongodb",
+    "language_code": "en-US",
+    "created_at": "2024-06-19T14:16:00Z",
+    "updated_at": "2024-06-19T14:16:00Z",
+    "conversation": {
+        "id": "conv-32798",
+        "_href": "https://example.com/conversations/conv-32798"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:08",
+            "text": "Hi Zhi, this is Arjun from MongoDB. Do you have a quick minute to chat about your ongoing migration at Acme Corp?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:09",
+            "timestamp_end": "00:00:13",
+            "text": "Hey Arjun. Honestly, we're in the middle of quite a few things, but go ahead."
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:14",
+            "timestamp_end": "00:00:21",
+            "text": "I'll keep it brief. I noticed Acme\u2019s moving workloads right now. Are you open to hearing how Atlas could make multi-region failover or scaling easier than with PostgreSQL?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:22",
+            "timestamp_end": "00:00:27",
+            "text": "I mean, we just spent six months migrating to PostgreSQL. Why would we consider another platform?"
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:28",
+            "timestamp_end": "00:00:36",
+            "text": "That's fair. But a lot of AdTech companies run into bottlenecks with relational models\u2014they need flexibility and global scaling. Atlas is built for that. Have you run into scaling pains yet?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:37",
+            "timestamp_end": "00:00:41",
+            "text": "Not really. Postgres is handling what we throw at it right now. And, honestly, I\u2019m hesitant to disrupt things again."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:42",
+            "timestamp_end": "00:00:48",
+            "text": "Makes sense. But if you\u2019re thinking about real-time bidding, geo-targeting, or regional data compliance, Atlas could help you future-proof."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:49",
+            "timestamp_end": "00:00:56",
+            "text": "Honestly, price is a bigger concern. We already got pushback on the database spend. Atlas just seems way more expensive and, uh, unpredictable cost-wise."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:57",
+            "timestamp_end": "00:01:03",
+            "text": "I totally get that. We do see a higher sticker price up front, but operational costs can go down, especially with managed backups and automation."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:04",
+            "timestamp_end": "00:01:08",
+            "text": "Maybe, but it\u2019s tough to justify migrating again\u2014especially with our team just settling into Postgres."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:09",
+            "timestamp_end": "00:01:16",
+            "text": "Sure, but even a proof-of-concept could be low risk. If you\u2019re planning more regions, Atlas offers instant failover, and compliance certifications are baked in."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:17",
+            "timestamp_end": "00:01:23",
+            "text": "We\u2019re not really expanding regions anytime soon. And the compliance stuff\u2014we\u2019re already ok on that front with our cloud provider."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:24",
+            "timestamp_end": "00:01:32",
+            "text": "Understood. Last question\u2014would you be open to a short technical session if we could show a clear ROI and minimize the migration risk?"
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:33",
+            "timestamp_end": "00:01:39",
+            "text": "I appreciate the offer, but honestly\u2014not right now. We\u2019re heads-down on other things and need to stay the course."
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:40",
+            "timestamp_end": "00:01:44",
+            "text": "Got it. Thanks for being straight with me, Zhi. If anything changes\u2014I\u2019ll check back in down the line?"
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:45",
+            "timestamp_end": "00:01:49",
+            "text": "Sure, just not this quarter. Good luck, Arjun."
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:50",
+            "timestamp_end": "00:01:54",
+            "text": "Thanks, Zhi. Take care."
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "id": "conv-0007",
+    "language_code": "en-US",
+    "created_at": "2024-06-22T16:50:02Z",
+    "updated_at": "2024-06-22T16:50:02Z",
+    "conversation": {
+        "id": "c-1017",
+        "_href": "https://example.com/conversations/c-1017"
+    },
+    "transcription_sentences": [
+        {
+            "index": 0,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi Zhi, this is Arjun calling from MongoDB. Hope I caught you at a good time\u2014do you have a quick minute?"
+        },
+        {
+            "index": 1,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:11",
+            "text": "Uh, hey Arjun. Sure, I have a couple minutes. What's up?"
+        },
+        {
+            "index": 2,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:11",
+            "timestamp_end": "00:00:17",
+            "text": "Awesome, thanks. I\u2019m reaching out since I saw Acme Corp. started modernizing to microservices\u2014does that mean you're re-evaluating your data layer at all?"
+        },
+        {
+            "index": 3,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:22",
+            "text": "Yeah, we\u2019re looking at a few things, but honestly we\u2019re pretty deep into Snowflake right now."
+        },
+        {
+            "index": 4,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:22",
+            "timestamp_end": "00:00:29",
+            "text": "That makes sense. Snowflake\u2019s great for analytics. But, uh, have you guys run into any blockers with real-time workloads or operational data as you shift to services?"
+        },
+        {
+            "index": 5,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:29",
+            "timestamp_end": "00:00:35",
+            "text": "Well\u2026 some, yeah. Event-driven stuff can get messy. But honestly, my main concerns are security and compliance. Finance isn\u2019t forgiving there."
+        },
+        {
+            "index": 6,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:35",
+            "timestamp_end": "00:00:43",
+            "text": "Totally, and Atlas is built with that in mind\u2014encryption at rest and in transit, SOC 2, PCI DSS, even regional data residency controls. But I get it: compliance is huge. Is there a specific framework keeping you up at night?"
+        },
+        {
+            "index": 7,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:43",
+            "timestamp_end": "00:00:48",
+            "text": "Mostly SOC 2 and GDPR, since we\u2019re expanding into Europe. We also need guaranteed failover across regions."
+        },
+        {
+            "index": 8,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:48",
+            "timestamp_end": "00:00:56",
+            "text": "Atlas can do automated multi-region, including failover\u2014your apps can keep serving reads and writes even during outages. We can pin data to specific zones for GDPR too."
+        },
+        {
+            "index": 9,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:56",
+            "timestamp_end": "00:01:01",
+            "text": "Alright, that\u2019s interesting. But switching databases is a big lift. How risky is migration?"
+        },
+        {
+            "index": 10,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:01",
+            "timestamp_end": "00:01:10",
+            "text": "It\u2019s definitely not trivial, but we have migration tooling and services\u2014plus, a bunch of fintechs have made the jump. We partner really closely through the whole process."
+        },
+        {
+            "index": 11,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:10",
+            "timestamp_end": "00:01:14",
+            "text": "Yeah... but what about vendor lock-in? That makes me nervous in the cloud world."
+        },
+        {
+            "index": 12,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:14",
+            "timestamp_end": "00:01:22",
+            "text": "Fair point. Atlas runs on AWS, Azure, or GCP, so you keep your options open. And our API's open source\u2014no weird proprietary stuff if you ever want to move."
+        },
+        {
+            "index": 13,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:22",
+            "timestamp_end": "00:01:25",
+            "text": "Hmm, okay. What about cost? Snowflake isn\u2019t cheap but we\u2019re pretty optimized."
+        },
+        {
+            "index": 14,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:25",
+            "timestamp_end": "00:01:32",
+            "text": "Totally get it. Atlas pricing is usage-based, so you only pay for what you use. A lot of customers find it\u2019s more predictable, especially for operational workloads."
+        },
+        {
+            "index": 15,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:32",
+            "timestamp_end": "00:01:35",
+            "text": "Alright. If you could send me something comparing Atlas and Snowflake for this use case, I\u2019ll take a look?"
+        },
+        {
+            "index": 16,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:35",
+            "timestamp_end": "00:01:40",
+            "text": "Absolutely, Zhi. I\u2019ll shoot you an email with a detailed breakdown and case studies. Is there anything else you want included?"
+        },
+        {
+            "index": 17,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:40",
+            "timestamp_end": "00:01:44",
+            "text": "If you\u2019ve got fintech references or bench tests, that\u2019d be helpful. Thanks, Arjun."
+        },
+        {
+            "index": 18,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:44",
+            "timestamp_end": "00:01:48",
+            "text": "Will do. I\u2019ll follow up later today. Appreciate the time, Zhi\u2014talk soon."
+        },
+        {
+            "index": 19,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:48",
+            "timestamp_end": "00:01:50",
+            "text": "Thanks. Bye."
+        }
+    ]
+}

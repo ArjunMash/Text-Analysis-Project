@@ -1,0 +1,138 @@
+{
+    "id": "transcript-20240612-001",
+    "language_code": "en-US",
+    "created_at": "2024-06-12T09:14:00Z",
+    "updated_at": "2024-06-12T09:14:00Z",
+    "conversation": {
+        "id": "conversation-20240612-001",
+        "_href": "/conversations/conversation-20240612-001"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:07",
+            "text": "Hi, is this Zhi? Hi, this is Arjun calling from MongoDB. Do you have a minute to chat?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:08",
+            "timestamp_end": "00:00:11",
+            "text": "Yeah, this is Zhi. Uh, I have a few minutes. What\u2019s this about?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:12",
+            "timestamp_end": "00:00:22",
+            "text": "Awesome, thanks. I noticed Acme Corp. has been running MongoDB on-prem, and I actually came across a post about some recent scaling challenges your team faced with your gaming backend. Does that sound familiar?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:23",
+            "timestamp_end": "00:00:27",
+            "text": "Um, yeah, our player numbers spiked and, honestly, it\u2019s been rough keeping up. Our clusters get overloaded during events."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:28",
+            "timestamp_end": "00:00:38",
+            "text": "I totally get that. That\u2019s actually really common with fast-growing titles. I wanted to see if you\u2019ve had a chance to look into MongoDB Atlas\u2014our fully managed cloud platform. It\u2019s designed to handle those spikes seamlessly."
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:46",
+            "text": "We've looked briefly, but honestly, we\u2019re worried about cloud costs. Our CFO is already on me about infrastructure spend."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:58",
+            "text": "That makes sense, and pricing is definitely top of mind for a lot of folks I talk to. The nice thing with Atlas is you only pay for the resources you use, and there\u2019s no more overprovisioning. Plus, we\u2019ve seen teams actually cut total cost of ownership by automating backups, scaling, and maintenance."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:59",
+            "timestamp_end": "00:01:04",
+            "text": "I mean, sure, but aren\u2019t there migration headaches? Moving production data for a live game feels risky."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:05",
+            "timestamp_end": "00:01:15",
+            "text": "You're right, migration is a big concern. We actually have a dedicated migration team, and most gaming clients\u2014especially those with live player data\u2014end up using our live migration service that syncs data in real time, so there\u2019s zero downtime."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:16",
+            "timestamp_end": "00:01:20",
+            "text": "Hmm, okay. But my team is also skeptical about vendor lock-in. What if Atlas doesn\u2019t perform at scale?"
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:21",
+            "timestamp_end": "00:01:34",
+            "text": "Good question. The Atlas platform runs the same MongoDB you\u2019re using now, with the ability to export your data whenever you want. In terms of scale, one of our other gaming customers handled a million concurrent users during a launch with zero latency issues thanks to auto-scaling and global clusters."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:35",
+            "timestamp_end": "00:01:41",
+            "text": "That\u2019s\u2026 interesting. How\u2019s security handled, especially with compliance? We have a lot of under-18 users."
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:42",
+            "timestamp_end": "00:01:55",
+            "text": "Absolutely, security\u2019s huge. Atlas is certified for SOC 2, GDPR, and other standards. We have built-in encryption\u2014both at rest and in transit\u2014and you get full auditing features, so you can meet your compliance requirements for minors globally."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:56",
+            "timestamp_end": "00:02:04",
+            "text": "Alright. There\u2019s a lot to unpack. Can you send over some case studies, maybe connect me with a customer in gaming?"
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:05",
+            "timestamp_end": "00:02:13",
+            "text": "Absolutely\u2014I\u2019ll send over some gaming-specific case studies today, and I can set up a call with a customer who scaled on Atlas. Would it be okay if we scheduled a quick follow-up next week to answer any new questions?"
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:14",
+            "timestamp_end": "00:02:18",
+            "text": "Yeah, let\u2019s do that. Next Thursday, same time?"
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:19",
+            "timestamp_end": "00:02:24",
+            "text": "Perfect, I\u2019ll block my calendar. Thanks a lot, Zhi! I\u2019ll send those resources over shortly."
+        },
+        {
+            "index": 18,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:25",
+            "timestamp_end": "00:02:27",
+            "text": "Alright, thanks Arjun. Talk soon."
+        }
+    ]
+}

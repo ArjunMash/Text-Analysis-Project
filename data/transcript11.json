@@ -1,0 +1,152 @@
+{
+    "id": "14a2d414-9904-4b06-9e2b-bc8cbb7f4a15",
+    "language_code": "en-US",
+    "created_at": "2024-06-28T10:07:30Z",
+    "updated_at": "2024-06-28T10:07:30Z",
+    "conversation": {
+        "id": "c9fd77c6-293f-41fb-bd05-9a5c9c9c2e1c",
+        "_href": "/conversation/c9fd77c6-293f-41fb-bd05-9a5c9c9c2e1c"
+    },
+    "transcription_sentences": [
+        {
+            "index": 1,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:02",
+            "timestamp_end": "00:00:06",
+            "text": "Hi, is this Zhi? This is Arjun calling from MongoDB. Do you have a quick minute?"
+        },
+        {
+            "index": 2,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:07",
+            "timestamp_end": "00:00:09",
+            "text": "Hey, yes, this is Zhi from Acme Corp. Uh, what's this about?"
+        },
+        {
+            "index": 3,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:10",
+            "timestamp_end": "00:00:16",
+            "text": "Great, thanks, Zhi. I noticed Acme Corp. recently did a data compliance review. I wanted to ask\u2014how is your current setup with Firebase handling those requirements?"
+        },
+        {
+            "index": 4,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:17",
+            "timestamp_end": "00:00:24",
+            "text": "Uh, we\u2019re getting by. To be honest, there\u2019ve been some gaps, especially around data residency and audit trails. But, yeah, we\u2019re still figuring out what\u2019s next."
+        },
+        {
+            "index": 5,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:25",
+            "timestamp_end": "00:00:32",
+            "text": "Makes sense. That\u2019s exactly where MongoDB Atlas can help, actually. We offer advanced controls for data sovereignty and full audit logging\u2014across regions. Is strict compliance one of your priorities right now?"
+        },
+        {
+            "index": 6,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:33",
+            "timestamp_end": "00:00:38",
+            "text": "It is, yeah, but\u2026 honestly, we\u2019re pretty invested in Firebase. Moving sounds risky and expensive."
+        },
+        {
+            "index": 7,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:39",
+            "timestamp_end": "00:00:46",
+            "text": "I get that. Migrations always sound daunting. Just so you know, our team\u2019s handled dozens for fintech firms, and we have tooling to reduce both data and downtime risk. The switch could be pretty smooth."
+        },
+        {
+            "index": 8,
+            "speaker": "prospect",
+            "timestamp_start": "00:00:47",
+            "timestamp_end": "00:00:51",
+            "text": "Okay, but I have to ask\u2026 what about ongoing costs? Firebase is, uh, predictable for us right now."
+        },
+        {
+            "index": 9,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:00:52",
+            "timestamp_end": "00:00:59",
+            "text": "Yeah, that\u2019s fair. Atlas has flexible pricing\u2014you only pay for what you use. If you\u2019d like, I can send over a tailored TCO comparison for Acme Corp. based on your current usage, so you\u2019re not guessing."
+        },
+        {
+            "index": 10,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:00",
+            "timestamp_end": "00:01:08",
+            "text": "I\u2019d look at that, but\u2026 performance is another thing we worry about. Lots of concurrent users, especially during market open. Firebase has handled spikes so far."
+        },
+        {
+            "index": 11,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:09",
+            "timestamp_end": "00:01:19",
+            "text": "Absolutely, and Atlas is built for those surges. Global clusters, built-in auto-scaling, and proven throughput under heavy fintech loads\u2014there are some big names using us for real-time trading data."
+        },
+        {
+            "index": 12,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:20",
+            "timestamp_end": "00:01:23",
+            "text": "Alright, but, uh\u2026 we\u2019ve also been burned by vendor lock-in before. How\u2019s the flexibility?"
+        },
+        {
+            "index": 13,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:24",
+            "timestamp_end": "00:01:32",
+            "text": "I totally hear you. MongoDB is open source at its core, so you\u2019re never locked in. Atlas just adds managed services and compliance features on top\u2014you always own your data."
+        },
+        {
+            "index": 14,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:33",
+            "timestamp_end": "00:01:38",
+            "text": "That\u2019s good. Still, we have to be super careful\u2014regulators are watching closely these days. How do you handle, like, SOC 2 and GDPR?"
+        },
+        {
+            "index": 15,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:39",
+            "timestamp_end": "00:01:46",
+            "text": "Great question. Atlas is certified for SOC 2 Type II, GDPR, PCI DSS, and more. We offer fine-grained RBAC and field-level encryption\u2014so your auditors will have what they need."
+        },
+        {
+            "index": 16,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:47",
+            "timestamp_end": "00:01:50",
+            "text": "Okay, you\u2019ve given me a lot to think about, Arjun."
+        },
+        {
+            "index": 17,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:01:51",
+            "timestamp_end": "00:01:56",
+            "text": "No problem, Zhi. Would it make sense for us to set up a follow-up call\u2014maybe next week? I can bring my solutions architect so we can dig into migration steps and compliance in detail."
+        },
+        {
+            "index": 18,
+            "speaker": "prospect",
+            "timestamp_start": "00:01:57",
+            "timestamp_end": "00:02:01",
+            "text": "Yeah, let\u2019s do that. Can you send me an email, and I\u2019ll loop in my CTO?"
+        },
+        {
+            "index": 19,
+            "speaker": "sales_rep",
+            "timestamp_start": "00:02:02",
+            "timestamp_end": "00:02:06",
+            "text": "Absolutely. I\u2019ll send a calendar invite with some times. Thanks a lot, Zhi."
+        },
+        {
+            "index": 20,
+            "speaker": "prospect",
+            "timestamp_start": "00:02:07",
+            "timestamp_end": "00:02:09",
+            "text": "Thank you, Arjun. Talk soon."
+        }
+    ]
+}
