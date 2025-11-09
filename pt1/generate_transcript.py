@@ -130,8 +130,6 @@ def build_prompt():
 def write_json(json_string: str, filename: str):
     """Function takes a JSON string and stores it locally as Json file with the specified name in the data folder"""
     python_object = json.loads(json_string)
-    # Define the output file name
-    output_file = "my_data.json"
     # Write the Python dictionary to a JSON file
     with open(filename, "w") as file:
         json.dump(python_object, file, indent=4)
@@ -143,6 +141,7 @@ def main():
     """
     for i in range(1, 26):
         outputfile = f"data/transcript{i}.json"
+        
         # Basic error handling in case of faillures during API calls or funcition calls (used GPT for initial guidance on formatting)
         try:
             prompt = build_prompt()
